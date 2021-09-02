@@ -8,6 +8,7 @@ import 'package:test_provider/services/informationservice.dart';
 class ActionProvider extends ChangeNotifier {
   Informationservice alldata = new Informationservice();
   int x;
+  int y;
   List<Information> user = [];
   int alllendata = 0;
   callservice() async {
