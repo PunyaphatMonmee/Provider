@@ -9,6 +9,7 @@ class ActionProvider extends ChangeNotifier {
   Informationservice alldata = new Informationservice();
   int x;
   int y;
+  int z;
   List<Information> user = [];
   int alllendata = 0;
   callservice() async {
